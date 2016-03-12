@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('about', function () {
+		return view('pages.about'); // resoruces/views/pages/about.blade.php
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
